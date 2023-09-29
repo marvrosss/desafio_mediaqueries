@@ -52,3 +52,19 @@ nav .nav-car{
     color:#ffffff;
 }
 /* fin navbar */
+
+/* section */
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+section span{
+    font-size: 20px;
+}
+section select{
+    width: 70%;
+    height: 50px;
+}
+/* fin section */
