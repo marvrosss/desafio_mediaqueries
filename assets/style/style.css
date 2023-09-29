@@ -48,7 +48,7 @@ nav .nav-car{
     display: flex;
     align-items: center;
     padding: 15px;
-    font-size: 25px;
+    font-size: 20px;
     color:#ffffff;
 }
 /* fin navbar */
@@ -68,3 +68,18 @@ section select{
     height: 50px;
 }
 /* fin section */
+
+/* footer */
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer img{
+    width: 30px;
+}
+footer span{
+    color:#ffffff;
+}
+/* fin footer */
