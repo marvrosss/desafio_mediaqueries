@@ -64,7 +64,7 @@ section span{
     font-size: 20px;
 }
 section select{
-    width: 70%;
+    width: 300px;
     height: 50px;
 }
 /* fin section */
@@ -85,6 +85,12 @@ footer span{
 /* fin footer */
 
 /* main */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
 main .card{
     display: flex;
     flex-direction: column;
@@ -92,6 +98,7 @@ main .card{
     border: 1px solid lightgrey;
     margin: 20px;
     height: 430px;
+    width: 350px;
 }
 main .card img{
     width: 300px;
@@ -138,3 +145,11 @@ main .card .text-button button{
 
 
 /* mediaqueries destok 992 */
+
+@media (min-width:992px) {
+
+
+    
+
+    
+}
