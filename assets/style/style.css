@@ -33,3 +33,22 @@ footer{
     background-color: #00319a;
 }
 /*fin container prinicipal */
+
+/* navbar */
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .nav-car img{
+    width: 50px;
+}
+
+nav .nav-car{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    font-size: 25px;
+    color:#ffffff;
+}
+/* fin navbar */
