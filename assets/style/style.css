@@ -113,7 +113,6 @@ main .card .text-button button{
     border-radius: 5px;
     width: 100px;
 }
-
     /* paginas */
     main .paginas{
         display: flex;
@@ -134,8 +133,8 @@ main .card .text-button button{
         height: 50px;
         color:yellowgreen;
         font-size: 25px;
-
     }
-
-     
 /* fin main */
+
+
+/* mediaqueries destok 992 */
