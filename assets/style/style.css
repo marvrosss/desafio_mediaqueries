@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* container principal */
+.grid-container{
+    display: grid;
+    grid-template-areas:
+    "nav"
+    "section"
+    "main"
+    "footer" 
+    ;
+    grid-template-rows: 80px 80px 85% 80px;
+    min-height: 85vh;
+}
+
+nav{
+    grid-area: nav;
+    background-color: #00b8ff;
+}
+section{
+    grid-area: section;
+    background-color: #f3eae8;
+}
+main{
+    grid-area: main;
+    
+}
+footer{
+    grid-area: footer;
+    background-color: #00319a;
+}
+/*fin container prinicipal */
